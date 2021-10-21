@@ -9,13 +9,32 @@ header{
     height: 30 px;
 }
 
+/*CSS del bloque de navegacion*/
 nav{
     width: 100%;
     margin: 20px,20px;
     float: left;
     background-color: #ffe2b8;
 }
-nav,ul,li{
-    list-style: none;
-    float:left;
+
+/*Css de la barra de menú
+*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+}
+a{
+    display: block;
+    padding: 8px;
+    float: left;
+    text-decoration: none;
+}
+li  a:hover{
+    background-color: burlywood;
 }
